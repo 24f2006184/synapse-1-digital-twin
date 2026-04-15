@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getZone } from "../../../../lib/api";
+import { getZone } from "@/lib/api";
 
 export default function HearthPage({ params }: { params: { id: string } }) {
   const [zone, setZone] = useState<any>(null);
