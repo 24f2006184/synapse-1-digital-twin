@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { submitHippocampalTest } from "@/lib/api";
-import { useAuthStore } from "@/lib/store";
+import { submitHippocampalTest } from "../../../../lib/api";
+import { useAuthStore } from "../../../../lib/store";
 
 // Hippocampal Anchor Drift Test
 // 60-second spatial memory mini-game in the atrium.

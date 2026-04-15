@@ -256,3 +256,4 @@ export default function HabitatViewer3D({ selectedZone, onSelectZone, cameraPres
     </div>
   );
 }
+
